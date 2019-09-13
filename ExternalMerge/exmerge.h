@@ -14,6 +14,6 @@ struct _Endereco
     char lixo[2];
 };
 
-int Merge (String in,int (*compara)(const void*,const void*));
+int merge (const char* in,int N,int (*compara)(const void*,const void*));
 
 #endif 
