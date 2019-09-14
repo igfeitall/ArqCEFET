@@ -41,7 +41,7 @@ void intercala(const char* nomefinal,int N,int (*compara)(const void*,const void
                 fread(&ea,tamreg,1,a);
             }else{
                 fwrite(&eb,tamreg,1,saida);
-                fread(&ea,tamreg,1,b);
+                fread(&eb,tamreg,1,b);
             }   
         }
 
