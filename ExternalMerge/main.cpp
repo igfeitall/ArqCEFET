@@ -15,9 +15,9 @@ int main (){
     estado = merge("cep.dat",8,compara);
 
     if(estado == 0){
-        printf("Ordenacaoo concluida\n");
+        printf("Ordenacao concluida\n");
     }else{
-        fprintf(stderr,"Erro na Ordenação");
+        fprintf(stderr,"Erro na Ordenacao");
     }
 
     return 0;

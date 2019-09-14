@@ -7,7 +7,7 @@ void intercala(const char* nomefinal,int N,int (*compara)(const void*,const void
 
     FILE *a,*b,*saida;
     Endereco ea, eb;
-    int inicio = 1,fim = 9,tamreg = sizeof(Endereco);
+    int inicio = 1,fim = N + 1,tamreg = sizeof(Endereco);
     char nomea[20],nomeb[20],nomefim[20];
     
 
